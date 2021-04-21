@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background:rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* centraliza o conteúdo - container*/
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center; /*alinhamento vertical do itens*/
+    justify-content: start; /* começa da esquerda para a direita*/
+    width: 63%; /*Tamanho do container em relação ao body*/
+    height: 100vh;
+}
+
+.instagram-phone .white-iphone {
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 0.1rem 0 0 7rem; /*o padding distancia o topo e o lado esquierdo */   
+}   
+
+.instagram-phone .black-iphone {
+    height: 800px;
+    align-items: center;
+} 
+
+.account-access {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    min-height: 34rem;
+}
+
+.login {
+    display: flex;
+    align-items: center; /* horizontal*/
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 30rem;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.insta-logo {
+    height: 3.5rem;
+}
+
+.account-create .not-account {
+    border: 1px solid lightgray;
+}
+.account-create .not-account .link-blue {
+    color: #0095f6;
+}   
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex; /*coloca os icones das stores lado a lado*/
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-store {
+    height: 4.5rem;
+    width: 12rem;
+    background-color: cover;
+}
+
+.google-store {
+    height: 3.1rem;
+    width: 10.5rem;
+    display: flex;
+    background-color: cover;
+}
